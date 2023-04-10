@@ -80,11 +80,14 @@ if __name__ == '__main__':
     ])
     
     T1, T2, Pn1, Pn2 = rectify(Po1, Po2, 160)
+
+    print(f'Pn1:\n{Pn1}')
+    print(f'Pn2:\n{Pn2}')
     
     image1 = cv.imread('./dataset/left.png')
     image2 = cv.imread('./dataset/right.png')
     shape = (image1.shape[1], image1.shape[0])
-    print(shape)
+    # print(shape)
     image1_rectified = cv.warpPerspective(image1, T1, shape, cv.INTER_LANCZOS4)
     image2_rectified = cv.warpPerspective(image2, T2, shape, cv.INTER_LANCZOS4)
     

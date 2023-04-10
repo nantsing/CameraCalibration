@@ -26,7 +26,7 @@ def q2R(q):
         [r7, r8, r9],
     ])
     
-    return R
+    return R.T
     
 def f2qt(f, q, t):
     for i, item in enumerate(f):

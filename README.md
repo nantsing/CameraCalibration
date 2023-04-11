@@ -8,7 +8,7 @@ sion* from [github@*decadenza*](https://github.com/decadenza/DirectStereoRectifi
 4. Transform.py: Use API in rectification.py to make a demo.
 5. rectify.py: Reproduction of *A compact algorithm for rectification of stereo pairs*.
 
-Usage:
+## Usage:
 1. To get rectifications of left.png and right.png:
 
         python rectify.py

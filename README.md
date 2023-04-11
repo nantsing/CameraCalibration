@@ -15,4 +15,4 @@ sion* from [github@*decadenza*](https://github.com/decadenza/DirectStereoRectifi
 
 2. To get rectifications of 1.png and 2.png:
 
-         python Transform.py
+        python Transform.py

@@ -3,6 +3,7 @@
 import os
 import numpy as np
 import cv2 as cv
+from Transform import *
 
 ### Get P from camera parameters
 def Get_P(A1, A2, R1, R2, t1, t2):
@@ -78,7 +79,7 @@ if __name__ == '__main__':
         [9.868e1, 9.310e2, 1.567e2, 2.517e5],
         [5.766e-1, 1.141e-1, 8.089e-1, 1.174e3]
     ])
-    
+
     T1, T2, Pn1, Pn2 = rectify(Po1, Po2, 160)
 
     print(f'Pn1:\n{Pn1}')
